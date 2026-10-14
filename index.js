@@ -5,3 +5,6 @@ function getStudentDetails(students) {
         return `${name} ${age} ${grade}`;
     });
 }
+
+
+module.exports = getStudentDetails;
